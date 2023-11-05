@@ -7,7 +7,7 @@
 // Function declarations here
 
 // Helping Functions here
-int _putchar(char c)
-void _prompt(void)
+int _putchar(char c);
+void _prompt(void);
 
 #endif
