@@ -9,6 +9,7 @@
 
 // Function declarations here
 char **handletoken(char *buffer);
+char * getevr(char *var, char **env);
 
 
 // Helping Functions here

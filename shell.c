@@ -4,9 +4,9 @@
  * Few comments.
  *
 */
-int main(int argc, char **argv)
+int main(int argc, char **argv, char **env)
 {
-	char *buffer = NULL, **args;
+	char *buffer = NULL, **args, *paths;
 	size_t n = 0;
 	ssize_t read_n;
 
@@ -17,6 +17,7 @@ int main(int argc, char **argv)
 		if (read_n == -1)
 			exit(EXIT_FAILURE);
 		args = handletoken(buffer);
+		paths = getevr("PATH", env);
 	}
 	return (0);
 }
