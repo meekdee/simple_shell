@@ -7,12 +7,12 @@
 #include <string.h>
 
 
-// Function declarations here
+/* Function declarations here */
 char **handletoken(char *buffer);
-char * getevr(char *var, char **env);
+char *getevr(char *var, char **env);
 
 
-// Helping Functions here
+/* Helping Functions here*/
 int _putchar(char c);
 void _prompt(void);
 

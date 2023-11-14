@@ -1,6 +1,6 @@
 #include "main.h"
 
-//puchar command.
+/*puchar command.*/
 
 int _putchar(char c)
 {
@@ -8,7 +8,7 @@ int _putchar(char c)
 }
 
 
-//Prompt Function
+/*Prompt Function*/
 void _prompt(void)
 {
 	char *pro = "$ ";
