@@ -1,8 +1,12 @@
 #include "main.h"
 
 /**
- * Few comments.
+ * main - reads the text file and prints the command
+ * @argc: argc
+ * @argv: argv
+ * @env: env
  *
+ * Return: commands printed. It fails, returns 0.
 */
 int main(int argc, char **argv, char **env)
 {

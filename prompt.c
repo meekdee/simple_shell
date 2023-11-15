@@ -1,6 +1,12 @@
 #include "main.h"
 
-/*puchar command.*/
+
+/**
+ * _putchar - displays a string
+ * @c: string
+ *
+ * Returns: the string.
+ */
 
 int _putchar(char c)
 {
@@ -8,7 +14,10 @@ int _putchar(char c)
 }
 
 
-/*Prompt Function*/
+/**
+ * _prompt - displays the strings
+ */
+
 void _prompt(void)
 {
 	char *pro = "$ ";

@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ * handletoken - takes a string
+ * @buffer: buffer.
+ * Return: NULL if fails.
+ */
+
 char **handletoken(char *buffer)
 {
 	char **args, *buff_cp, *delim = " \t\n", *tok;
